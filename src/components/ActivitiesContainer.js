@@ -9,7 +9,15 @@ const activityData = [
         items: [
             {
                 datetime: 'August 15, 2024',
-                description: 'Our Induction Programs are designed to give new students a warm and informative welcome into the institution...',
+                description: 'The FYMCA Induction Program session on "Art of Decision Making" was organized to help students develop critical thinking and decision-making skills essential for both academic and personal growth.',
+            },
+            {
+                datetime: 'August 12, 2024',
+                description: 'The Second MCA Induction Program 2024 was successfully conducted at DPIMCA, focusing on introducing students to the institution’s culture, academic structure, and opportunities for holistic development.',
+            },
+            {
+                datetime: 'August 10, 2024',
+                description: 'The FY MCA Induction Program 2024 provided a warm welcome to newly admitted students, offering guidance, motivation, and orientation towards their journey at DPIMCA.',
             }
         ]
     },
@@ -118,22 +126,36 @@ const activityData = [
         ]
     },
     {
-        heading: 'Faculty Development Program',
-        icon: 'fa-people-group',
-        items: [
-            {
-                datetime: '02/02/2021 to 06/02/2021',
-                description: 'AICTE Training And Learning (ATAL) Academy FDP on Sustainability Engineering. Participated in FDP on Sustainability Engineering organized by AICTE ATAL Academy.',
-            }
-        ]
-    },
-    {
-        heading: 'Student Annual Activity',
+        heading: 'Student Activity',
         icon: 'fa-children',
         items: [
             {
-                datetime: 'August 2024',
-                description: 'The Student Annual Activity is a vibrant celebration of student achievements, creativity, and spirit.',
+                datetime: 'January 11, 2020',
+                description: 'Expert Session on Fundamentals of Artificial Intelligence was conducted by Mrs. Veena Sarda, providing MCA-I and MCA-II students with insights into AI concepts, tools, and applications.',
+            },
+            {
+                datetime: 'January 21, 2020',
+                description: 'Orientation Session for SYMCA students was conducted by Dr. Kavita Suryawanshi, HOD, MCA, to guide and motivate students for the upcoming academic journey.',
+            },
+            {
+                datetime: 'January 31, 2020',
+                description: 'IT Assembly Session featured a Technical Quiz with rounds on organization logos, jingles, and puzzles, encouraging students to engage with IT knowledge in an interactive way.',
+            },
+            {
+                datetime: 'February 22, 2020',
+                description: 'Flip Class-Room Session was organized where students presented and discussed topics like Fog Computing, Intuitive AI, and Quantum Computing, helping them strengthen technical communication and collaborative learning.',
+            },
+            {
+                datetime: 'February 29, 2020',
+                description: 'IT Assembly Session highlighted advanced topics such as Brain-Computer Interface and Neuromorphic Computing, with students delivering talks and sharing the latest IT trends.',
+            },
+            {
+                datetime: '2018',
+                description: 'IT Assembly on Near Field Communication (NFC) introduced students to emerging technologies like NFC, automation testing, and portable power banks, enhancing their awareness of real-world applications.',
+            },
+            {
+                datetime: 'January 27, 2018',
+                description: 'TED Talk screening on "How Blockchain will radically transform the economy" by Bettina Warburg exposed students to blockchain concepts, its potential for disruption, and future IT opportunities.',
             }
         ]
     }

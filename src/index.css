@@ -1294,6 +1294,23 @@ textarea {
   margin: 0;
 }
 
+.gallery-caption a button {
+  margin: 10px 0px;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: var(--button-text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.gallery-caption a button:hover {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+}
+
 .slick-prev,
 .slick-next {
   width: 60px !important;
@@ -1616,6 +1633,10 @@ footer .footer {
     font-size: 16px;
   }
 
+  .gallery-section {
+    height: auto;
+  }
+
   .gallery-img {
     height: 300px;
   }
@@ -1623,7 +1644,7 @@ footer .footer {
   .gallery-caption {
     bottom: 20px;
     left: 20px;
-    padding: 10px 15px;
+    padding: 10px 5px;
   }
 
   .gallery-caption h3 {
@@ -1631,6 +1652,7 @@ footer .footer {
   }
 
   .gallery-caption p {
+    display: none;
     font-size: 0.9rem;
   }
 

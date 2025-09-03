@@ -9,7 +9,8 @@ import national_patent_granted from "../assets/img/gallery_img/national_patent_g
 import best_paper_presentation from "../assets/img/gallery_img/best_paper_presentation.jpeg";
 import second_international_patent from "../assets/img/gallery_img/second_international_patent.jpeg";
 import third_international_patent_granted from "../assets/img/gallery_img/third_international_patent_granted.jpeg";
-
+import mca_orientation_program from "../assets/img/gallery_img/mca_orientation_program.jpeg";
+import induction_program4 from "../assets/img/gallery_img/induction_progam4.jpeg";
 
 
 
@@ -21,18 +22,21 @@ const galleryItems = [
     },
     {
         title: "FYMCA Induction program session On Art of Decision Making",
-        description: "Received the Excellence in Teaching Award 2023.",
+        description: "Held FYMCA Induction program on Art of Decision Making for students.",
         image: induction_program,
+        link: "https://www.linkedin.com/posts/dypimcam_were-excited-to-announce-that-the-fymca-activity-7249962960285028352-H6Wr?utm_source=social_share_video_v2&utm_medium=android_app&rcm=ACoAADsPqU4BQIYfcIJ_myWrLT3hBwmMN5Mjr_s&utm_campaign",
     },
     {
         title: "MCA Induction Program 2024",
-        description: "Delivered a talk at National Science Conference, Delhi.",
+        description: "Held Second Induction Program in DPIMCA for students.",
         image: induction_program2,
+        link: "https://www.linkedin.com/posts/dypimcam_activity-7239920181920120833-IKh6/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADsPqU4BQIYfcIJ_myWrLT3hBwmMN5Mjr_s&utm_campaign",
     },
     {
         title: "INDUCTION PROGRAM 2024 FY MCA",
-        description: "Delivered a talk at National Science Conference, Delhi.",
+        description: "Held a Induction Program in DPIMCA for FYMCA students.",
         image: induction_program3,
+        link: "https://www.linkedin.com/posts/dypimcam_induction-program-2024-fy-mca-activity-7239531399785963521-xiir/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADsPqU4BQIYfcIJ_myWrLT3hBwmMN5Mjr_s&utm_campaign",
     },
     {
         title: "National Patent Granted – Academic Leadership Scorecard",
@@ -58,6 +62,20 @@ const galleryItems = [
             "Granted Third International Patent for 'A Rapid Book Access Device' by Republic of South Africa, Randburg.",
         image: third_international_patent_granted,
     },
+    {
+        title: "DYPIMCAM – MCA Orientation Program",
+        description:
+            "MCA Orientation Program 2024 conducted BY Dr Kavita Suryawanshi HOD,Vice Principal DYPIMCAM",
+        image: mca_orientation_program,
+        link: "https://www.linkedin.com/posts/dypimcam_mca-orientation-program-2024-conducted-by-activity-7246485671983366145-kPUK/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADsPqU4BQIYfcIJ_myWrLT3hBwmMN5Mjr_s&utm_campaign",
+    },
+    {
+        title: "MCA & MBA Induction Program",
+        description:
+            "The MCA & MBA Induction Program at D. Y. Patil Institute of Master of Computer Applications and Management sets the stage for future leaders and innovators.",
+        image: induction_program4,
+        link: "https://www.linkedin.com/posts/dypimcam_inductionprogram-futureleaders-newbeginnings-activity-7242942252342276096-AazD/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAADsPqU4BQIYfcIJ_myWrLT3hBwmMN5Mjr_s&utm_campaign",
+    }
 ];
 
 const Gallery = () => {
@@ -89,6 +107,7 @@ const Gallery = () => {
                             <div className="gallery-caption">
                                 <h3>{item.title}</h3>
                                 <p>{item.description}</p>
+                                <a href={item.link}><button>View More</button></a>
                             </div>
                         </div>
                     ))}

@@ -17,7 +17,7 @@ function HeaderInfo() {
                         </div>
                         <div className="author-info">
                             <h1>Hi, I'm Dr. Kavita Suryawanshi</h1>
-                            <span>Head of Department (MCA) | Vice Principal (DYPIMCA)</span>
+                            <span>Head of Department (MCA) | Vice Principal (DYPIMCAM, Akurdi)</span>
                             <p>Dr. Kavita Suryawanshi is a distinguished academician and visionary leader with over two decades of experience in the field of MCA & Research. As the Head of Department, i have consistently demonstrated exemplary dedication towards fostering academic excellence, pioneering innovative research, and nurturing a collaborative learning environment.</p>
                             <div className="action-btn-container">
                                 <Link to="/aboutme"><button>About Me</button></Link>

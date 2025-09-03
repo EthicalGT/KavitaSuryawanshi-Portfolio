@@ -65,12 +65,12 @@ function AboutMe() {
                             <p>With a structured approach, I manage tasks, resources, and people efficiently—balancing priorities and ensuring timely, high-quality outcomes.</p>
                         </div>
                         <div className="skillbox">
-                            <strong>Teamwork</strong>
-                            <p>I believe collaboration fuels innovation. I work cohesively in diverse teams, value every voice, and strive toward shared goals with mutual respect and support.</p>
+                            <strong>Effective Communication</strong>
+                            <p>Excels in conveying ideas clearly and fostering meaningful discussions with students, colleagues, and stakeholders</p>
                         </div>
                         <div className="skillbox" id="heroSkillbox">
-                            <strong>Leadership</strong>
-                            <p>I lead by example—empowering others, making thoughtful decisions, and fostering an environment where creativity, growth, and accountability thrive.</p>
+                            <strong>Visionary Mentorship</strong>
+                            <p>Guides students and faculty with a long-term vision, inspiring innovation, research, and professional growth beyond the classroom.</p>
                         </div>
 
                     </div>
