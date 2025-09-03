@@ -1,4 +1,4 @@
-import profile from '../assets/img/profile.png';
+import photograph from '../assets/img/photograph.png';
 import FadeUpAnim from './FadeUpAnim';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
@@ -13,7 +13,7 @@ function HeaderInfo() {
                 <FadeUpAnim>
                     <div className="header-info">
                         <div className="author-pic">
-                            <img src={profile} alt="author-img" />
+                            <img src={photograph} alt="author-img" />
                         </div>
                         <div className="author-info">
                             <h1>Hi, I'm Dr. Kavita Suryawanshi</h1>
